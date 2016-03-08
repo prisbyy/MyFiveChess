@@ -35,7 +35,7 @@
 
 #include <afxsock.h>            // MFC Ì×½Ó×ÖÀ©Õ¹
 
-
+extern int m_data[15][15];
 
 
 

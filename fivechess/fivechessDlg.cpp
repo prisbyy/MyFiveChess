@@ -157,14 +157,12 @@ HCURSOR CfivechessDlg::OnQueryDragIcon()
 
 void CfivechessDlg::OnExitGameMenu()
 {
-	// TODO:  在此添加命令处理程序代码
 	CDialog::OnCancel();
 }
 
 
 void CfivechessDlg::OnNewGameMenu()
 {
-	// TODO:  在此添加命令处理程序代码
 	if (IDOK == m_setup_dlg.DoMoModal())
 	{
 		NewGameStart(m_setup_dlg.m_isHost);
@@ -174,6 +172,5 @@ void CfivechessDlg::OnNewGameMenu()
 
 void CfivechessDlg::OnDrawGameMenu()
 {
-	// TODO:  在此添加命令处理程序代码
 	DrawGame();
 }

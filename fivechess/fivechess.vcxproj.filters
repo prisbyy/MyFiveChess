@@ -36,6 +36,9 @@
     <ClInclude Include="SetupDlg.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="fivechess.cpp">
@@ -48,6 +51,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="SetupDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -63,6 +69,15 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\fivechess.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\BTdownloads\Visual C++游戏开发经典案例详解\Visual C++游戏开发经典案例详解 源代码\本书源文件\FiveChess\res\Table.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\BTdownloads\Visual C++游戏开发经典案例详解\Visual C++游戏开发经典案例详解 源代码\本书源文件\FiveChess\res\Black.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\BTdownloads\Visual C++游戏开发经典案例详解\Visual C++游戏开发经典案例详解 源代码\本书源文件\FiveChess\res\White.bmp">
       <Filter>资源文件</Filter>
     </Image>
   </ItemGroup>

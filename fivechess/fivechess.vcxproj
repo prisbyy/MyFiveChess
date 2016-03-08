@@ -20,7 +20,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v120</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>NotSet</CharacterSet>
     <UseOfMfc>Dynamic</UseOfMfc>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -101,6 +101,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Board.h" />
     <ClInclude Include="fivechess.h" />
     <ClInclude Include="fivechessDlg.h" />
     <ClInclude Include="Resource.h" />
@@ -109,6 +110,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Board.cpp" />
     <ClCompile Include="fivechess.cpp" />
     <ClCompile Include="fivechessDlg.cpp" />
     <ClCompile Include="SetupDlg.cpp" />
@@ -124,6 +126,9 @@
     <None Include="res\fivechess.rc2" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\..\..\BTdownloads\Visual C++游戏开发经典案例详解\Visual C++游戏开发经典案例详解 源代码\本书源文件\FiveChess\res\Black.bmp" />
+    <Image Include="..\..\..\BTdownloads\Visual C++游戏开发经典案例详解\Visual C++游戏开发经典案例详解 源代码\本书源文件\FiveChess\res\Table.bmp" />
+    <Image Include="..\..\..\BTdownloads\Visual C++游戏开发经典案例详解\Visual C++游戏开发经典案例详解 源代码\本书源文件\FiveChess\res\White.bmp" />
     <Image Include="res\fivechess.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
