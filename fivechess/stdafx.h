@@ -35,6 +35,9 @@
 
 #include <afxsock.h>            // MFC Ì×½Ó×ÖÀ©Õ¹
 
+
+const int BLACK = 0;
+const int WHITE = 1;
 extern int m_data[15][15];
 
 
